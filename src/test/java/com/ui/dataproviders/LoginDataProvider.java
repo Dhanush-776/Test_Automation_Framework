@@ -21,7 +21,7 @@ public class LoginDataProvider {
 	public Iterator<Object[]> loginDataProvider() throws FileNotFoundException {
 		
 		Gson gson = new Gson();
-		File testDatafile = new File(System.getProperty("user.dir") + "\\testdata\\loginData.json");
+		File testDatafile = new File(System.getProperty("user.dir") + "//testdata//loginData.json");
 		FileReader filereader = new FileReader(testDatafile);
 		TestData data = gson.fromJson(filereader, TestData.class);//deserialization
 		
