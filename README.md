@@ -65,29 +65,25 @@ git clone https://github.com/Dhanush-776/Test_Automation_Framework.git
 cd <Test_Automation_Framework>
 ```
 
-Running Tests
-Run Tests on LambdaTest
+## Running Tests
+
+## Run Tests on LambdaTest
+```bash
 mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
+```
 
-Run Tests on Local Machine in Headless Mode
+## Run Tests on Local Machine in Headless Mode
+```bash
 mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=true
+```
 
+## Reports & Logs
 
-Reports & Logs
-Reports
+## Reports
 After execution, test results will be generated in the form of execution output and logs.
 (Reporting tools can be integrated as an enhancement if required.)
-Logs
+
+## Logs
 Logs are created during test execution to help with debugging and analysis.
 
-Parallel Execution
-Parallel execution is handled using TestNG configuration, allowing tests to run faster by utilizing multiple threads.
 
-CI/CD Ready
-This framework is suitable for execution in CI/CD pipelines such as:
-
-Jenkins
-GitHub Actions
-Azure DevOps
-
-Headless execution makes it ideal for automated pipeline runs.
