@@ -57,22 +57,19 @@ Before running this framework, ensure the following software is installed on you
 
 ---
 
-## Setup Instructions
+Setup Instructions
+Clone the Repository
+git clone https://github.com/Dhanush-776/Test_Automation_Framework.git
+cd <Test_Automation_Framework>
 
-### Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd <repository-name>
-``
 
 Running Tests
-
 Run Tests on LambdaTest
 mvn test -Dbrowser=chrome -DisLambdaTest=true -DisHeadless=false
 
 Run Tests on Local Machine in Headless Mode
 mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=true
+
 
 Reports & Logs
 Reports
