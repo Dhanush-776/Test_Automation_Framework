@@ -57,11 +57,13 @@ Before running this framework, ensure the following software is installed on you
 
 ---
 
-Setup Instructions
-Clone the Repository
+## Setup Instructions
+
+## Clone the Repository
+```bash
 git clone https://github.com/Dhanush-776/Test_Automation_Framework.git
 cd <Test_Automation_Framework>
-
+```
 
 Running Tests
 Run Tests on LambdaTest
